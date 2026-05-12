@@ -1,0 +1,18 @@
+{
+  "$schema": "./node_modules/wrangler/config-schema.json",
+  "name": "gemini-ai-studio-proxy",
+  "main": "src/worker.js",
+  "compatibility_date": "2026-05-12",
+  "compatibility_flags": ["nodejs_compat"],
+  "observability": {
+    "enabled": true,
+    "head_sampling_rate": 1
+  },
+  // Optional custom domain example. Replace with your own hostname, then deploy.
+  // "routes": [
+  //   {
+  //     "pattern": "api.example.com",
+  //     "custom_domain": true
+  //   }
+  // ]
+}
